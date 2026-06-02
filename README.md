@@ -1,20 +1,13 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/status-early%20development-orange?style=flat-square" alt="Status: early development"/>
-  <img src="https://img.shields.io/badge/ecosystem-norikit-32C572?style=flat-square" alt="Ecosystem: norikit"/>
-  <img src="https://img.shields.io/badge/license-AGPL--3.0-blue?style=flat-square" alt="License: AGPL-3.0"/>
-</p>
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"/>
-    <img src="assets/hero-light.svg" alt="noribento" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/noribento/hero/dark_theme.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/noribento/hero/light_theme.svg"/>
+    <img src="https://raw.githubusercontent.com/norikit/norikit/main/assets/noribento/hero/light_theme.svg" alt="noribento" width="100%"/>
   </picture>
 </p>
 
 <p align="center">
-  A fast, lean tiling window manager for macOS.<br/>
-  i3-style keyboard-driven window management, inspired by the AeroSpace approach.<br/>
+  <strong>noribento</strong> — a fast, keyboard-driven tiling window manager, i3-style.<br/>
   Part of the <strong>norikit</strong> ecosystem.
 </p>
 
@@ -23,12 +16,23 @@
 
 ## About
 
-noribento is a tiling window manager for macOS that takes its cues from
-[AeroSpace](https://github.com/nikitabobko/AeroSpace): an i3-style tree of
-containers and emulated workspaces rather than reliance on native macOS Spaces.
-The goal is a fast, lean, keyboard-driven experience that fits into the broader
-**norikit** toolkit.
+A [**norikit**](https://github.com/norikit) project — part of a suite of native macOS
+desktop-customization tools, built to be fast and visually cohesive.
+
+<!-- Fill in as the project takes shape: why it exists, what it does, how it's built. -->
+
+## Documentation
+
+Design knowledge lives in the **[`ai-docs/`](ai-docs/)** knowledge base. Active work is
+tracked under **[`tasks/`](tasks/)**.
+
+> **Working in this repo with an AI agent?** Start at [`CLAUDE.md`](CLAUDE.md).
+
+## Building
+
+Requires macOS 13+.
+
 
 ## License
 
-Released under the [GNU AGPL-3.0 License](LICENSE).
+[AGPL-3.0](LICENSE).
