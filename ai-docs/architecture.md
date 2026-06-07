@@ -31,3 +31,15 @@ Sources/, named for what it does. List the layers here as they appear, e.g.:
 ## Entry points
 
 <!-- The app bootstrap, and the headless self-test path that CI runs without a GUI. -->
+
+## Platform & portability
+
+Per [D2](decisions.md#d2--platform-posture-unix-first-cross-system), the system is
+**unix-first and cross-system** (Linux primary, macOS supported). Design implications:
+
+- The core must not hard-depend on macOS-only APIs. Per-OS integration (e.g. the
+  display-server / window-server layer — X11/Wayland on Linux vs the macOS window server)
+  sits behind a platform boundary so the rest of the system is OS-agnostic.
+- macOS-specific capabilities are **availability-gated enhancements** with a working
+  cross-system fallback (degraded, not broken).
+- Build/dev tooling and CI stay POSIX-portable and run on a cross-system matrix.
