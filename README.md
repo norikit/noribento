@@ -16,8 +16,10 @@
 
 ## About
 
-A [**norikit**](https://github.com/norikit) project — part of a suite of native macOS
-desktop-customization tools, built to be fast and visually cohesive.
+A [**norikit**](https://github.com/norikit) project — part of a suite of **unix**
+desktop-customization tools (cross-system: **Linux-first, macOS supported**), built to be
+fast and visually cohesive. macOS-specific capabilities are optional, availability-gated
+enhancements — never required.
 
 <!-- Fill in as the project takes shape: why it exists, what it does, how it's built. -->
 
@@ -30,7 +32,9 @@ tracked under **[`tasks/`](tasks/)**.
 
 ## Building
 
-Requires macOS 13+.
+Targets unix-like systems — **Linux primary, macOS supported**. The exact OS floor and
+build steps land with the stack (see [ai-docs/decisions.md](ai-docs/decisions.md): D2
+platform posture, D3 stack — pending).
 
 
 ## License

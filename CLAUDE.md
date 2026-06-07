@@ -52,7 +52,10 @@ relitigate without owner direction.
 
 - **Standalone-first** — runs without any other norikit tool; ecosystem integration is optional and
   availability-gated. *(inherited — keep)*
-- _Record this project's own decisions (stack · OS floor · UI/config approach) in
-  [ai-docs/decisions.md](ai-docs/decisions.md) and mirror the headlines here._
+- **Unix-first, cross-system** — the product *and* its tooling run across unix-like systems (Linux
+  primary, macOS supported); macOS-specific capabilities are optional, availability-gated
+  enhancements, never the floor. *(D2)*
+- _Remaining day-one decisions (stack · UI/config approach) are pending in
+  [ai-docs/decisions.md](ai-docs/decisions.md) (D3); mirror the headlines here once locked._
 
 <!-- norikit:project:end -->
